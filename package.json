@@ -1,0 +1,24 @@
+{
+  "name": "@amirshafiquewr/cli-number-guess",
+  "version": "1.0.0",
+  "description": "This is number guessing game. User inputs a number and if it is matched with the computer generated number , user wins.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@amirshafiquewr/cli-number-guess": "^1.0.0",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
